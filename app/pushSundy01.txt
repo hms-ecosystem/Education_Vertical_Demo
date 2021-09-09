@@ -1,0 +1,38 @@
+Keystore type: jks
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: key_acnt_5th
+Creation date: Oct 24, 2019
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=s s, OU=hw, O=hw, L=bellevue, ST=wa, C=us
+Issuer: CN=s s, OU=hw, O=hw, L=bellevue, ST=wa, C=us
+Serial number: 7bbfa8c4
+Valid from: Thu Oct 24 15:28:07 PDT 2019 until: Mon Oct 17 15:28:07 PDT 2044
+Certificate fingerprints:
+	 MD5:  A8:8C:A9:AC:7F:C7:06:E2:2A:0E:33:D7:A1:D0:C8:2B
+	 SHA1: 59:10:8C:4D:6D:C9:E2:AA:AB:79:85:8E:11:11:7C:7B:7B:BE:E8:DE
+	 SHA256: C4:87:43:4C:AC:3A:84:9E:D6:A1:F8:D3:D1:C3:57:70:4B:B6:80:8C:86:F3:E3:8E:F7:EF:1D:76:7C:DF:8B:65
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 8C 9F C2 2A 3A CD 58 FD   88 C5 F8 E4 A3 14 51 3D  ...*:.X.......Q=
+0010: 35 5D 98 38                                        5].8
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
