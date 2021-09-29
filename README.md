@@ -1,4 +1,11 @@
 # Education_Vertical_Demo
+# Table of Contents
+  1. Introduction
+  2. Prereq
+  3. Help information
+  4. License
+  5. Bug fixed
+  6. Screenshots of demo
 # Introduction
 This demo provides an example of an education vertical solution with integrating Huawei Ads, Video, CloudDB, Analytics, Push, Account and Auth. All course content are in the Cloud Database. The demo page can show the detail information for each course. 
 
@@ -17,6 +24,29 @@ The demo project uses standard Android Studio v4.2.1 and was tested on Huawei Ma
 6. Analytics kit develop: https://developer.huawei.com/consumer/en/hms/huawei-analyticskit/
 # License
 The demo code is licensed under the Apache License, version 2.0.
+This demo codes mostly refer to the open GitHub code: https://github.com/huaweicodelabs/HMS-Learning-Application
+All copyright belong to Huawei Technologies Co., Ltd
+# Bugs fixed
+The original demo code(https://github.com/huaweicodelabs/HMS-Learning-Application) has some bugs as below. 
+1. #Bug: Too old version of Huawei CloudDB v1.2.2.301 used. 
+
+   #Root cause: The old demo codes use Huawei CloudDB v1.2.2.301(released in 2020-10-30). Current Huawei AGC console already uses the new version and not support the old version. Please refer to below table for the differences(Left column is old version and right column is new version). 
+   
+    ![image](https://user-images.githubusercontent.com/57116184/135347868-054b7f1f-7843-40bf-90b6-49bf9b5b994b.png)
+   
+   #Solution: use AGC console and generated all latest version DB files including all files in the database/tables folder and the file of "ObjectTypeINfoHelper.java" in database folder
+
+2. #Bug: Video failed to play.  
+   #Root cause: The Player process triggered by the system initialized the database again, and the abnormal initialization caused the Player process to be interrupted.   
+   #Solution: The initialization of the database can be transferred to Activity to complete. During the verification process, transferred it to SplashScreenActivity and made relevant modifications to other activities. 
+   
+3. #Issue: Huawei CloudDB template is not provided.  
+
+   #Root cause: The Cloud DB has 19 tables and each table has 10+ items, but NO corresponding DB json template file for user to import!  You will have to manually create the Cloud DB with 19 tables which is boring and will take you a lot of time. 
+   
+   #Solution: After manually created the Cloud DB, then exported all the DB info as one JSON template file from AGC console. So developers can easily import the template file to create the cloud database to save much time and avoid mistakes. The template is "Education-learning_CloudDB_all_tables_19.json" in the root folder.  
+
+
 # Screenshots of demo
 
 ![image](https://user-images.githubusercontent.com/57116184/133140568-41fdefcf-560e-4fc5-9e63-1d133fcab111.png)
