@@ -12,9 +12,14 @@ This demo provides an example of an education vertical solution with integrating
 The demo project uses standard Android Studio v4.2.1 and was tested on Huawei Mate30 pro phone. 
 # Prereq
 1. Standard Android Studio installed. 
-2. Huawei Developer account
-3. Build up a cloud database in Huawei AGC console.  You can use the template "Education-learning_CloudDB_all_tables_19.json" file to import into the database and it will save you tons of time. 
-4. One Huawei phone with developer option enabled. (non-huawei phone such as Samsung Note8 cannot show Ads well)
+2. Huawei Developer account. 
+3. Create a new App in AppGallery Connect with your Huawei develper ID and change the package name. Help: https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#0
+4. Generating a Signing Certificate and Add fingerprint certificate to AppGallery Connect. Help:https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#2 https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#4
+5. Configure project signature. Help: https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#7
+6. Replace lines 30 to 33 and lines of the file of /Education_Vertical_Demo/blob/main/app/build.gradle with your own signature. And put your own jks file in the folder Education_Vertical_Demo/app/  to replace pushSundy01.jks. 
+7. Build up a new cloud database in Huawei AGC console with your own Huawei developer ID.  You can use the template "Education-learning_CloudDB_all_tables_19.json" file to import into the database and it will save you tons of time. You will output/generate the related files: Education_Vertical_Demo/blob/main/app/src/main/java/com/sundydemo/learning1/java/database/ObjectTypeInfoHelper.java ,  All java files in the folder of Education_Vertical_Demo/tree/main/app/src/main/java/com/sundydemo/learning1/java/database/tables/
+9. One Huawei phone with developer option enabled. (non-huawei phone such as Samsung Note8 cannot show Ads well)
+10. For Huawei Kits integration, configration, test,etc, please refer to below Huawei official website in part of Help information. 
 # Help information
 1. Video kit develop: https://developer.huawei.com/consumer/en/doc/development/Media-Guides/introduction-0000001050439577
 2. Account&Auth kit develop: https://developer.huawei.com/consumer/en/hms/huawei-accountkit/
