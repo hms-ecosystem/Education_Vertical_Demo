@@ -24,5 +24,5 @@ public interface CloudDbConstants {
     /**
      * The constant CLOUD_DB.
      */
-    String CLOUD_DB = "SundyDB";
+    String CLOUD_DB = "SundyDB"; //Make sure to use the same name as that you created the CloudDB in AGC project console board.
 }
