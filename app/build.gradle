@@ -27,6 +27,8 @@ android {
     }
     signingConfigs {
         release {
+        
+            // NOTES: you must generate and use your own jks file, keyAlias, storePassword, keyPassword. below are only for example
             storeFile file('pushSundy01.jks')
             keyAlias = 'key_acnt_5th'
             storePassword 'xxxxx'
