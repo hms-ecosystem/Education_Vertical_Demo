@@ -80,7 +80,7 @@ dependencies {
     //videokit
     implementation "com.huawei.hms:videokit-player:1.0.5.300"//1.0.1.300"
     //Analytics
-    //implementation 'com.huawei.hms:hianalytics:5.0.4.301'
+    implementation 'com.huawei.hms:hianalytics:5.0.4.301'
     // Crash Service
     implementation 'com.huawei.agconnect:agconnect-crash:1.4.0.300'
     // HMS push kit
