@@ -12,13 +12,14 @@ This demo provides an example of an education vertical solution with integrating
 The demo project uses standard Android Studio v4.2.1 and was tested on Huawei Mate30 pro phone. 
 # Prereq
 1. Standard Android Studio installed. 
-2. Huawei developer account is ready. Click Auth Service on the navigation bar (on AGC console board) and enable authentication using an anonymous account.
+2. Huawei developer account is ready. 
 3. Create a new App in AppGallery Connect with your Huawei develper ID and change the package name. Help: https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#0
 4. Generating a Signing Certificate and Add fingerprint certificate to AppGallery Connect. NOTES: the files {app/pushSundy01.jks and app/pushSundy01.txt} here are only for example and you cannot use them directly. You must generate your own files to use.    Help:https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#2 https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#4
 5. Configure project signature. Help: https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#7
-6. Replace lines 30 to 33 and lines of the file of /Education_Vertical_Demo/blob/main/app/build.gradle with your own signature. And put your own jks file in the folder Education_Vertical_Demo/app/  to replace pushSundy01.jks. 
-7. Build up a new cloud database in Huawei AGC console with your own Huawei developer ID. Make sure to use the same name in the code for creating CloudDB in CloudDBConstants.java file. You can use the template "Education-learning_CloudDB_all_tables_19.json" file to import into the database and it will save you tons of time. 
-But NOTES: you must change the number of {"schemaVersion":19} for the json file based on your CloudDB version. Make sure to use the same name in the code for creating CloudDB in CloudDBConstants.java file(which is in the database folder).
+6. Click Auth Service on the navigation bar (on AGC console board) and enable authentication using an anonymous account.
+7. Replace lines 30 to 33 and lines of the file of /Education_Vertical_Demo/blob/main/app/build.gradle with your own signature. And put your own jks file in the folder Education_Vertical_Demo/app/  to replace pushSundy01.jks. 
+8. Build up a new cloud database in Huawei AGC console with your own Huawei developer ID. Make sure to use the same name in the code for creating CloudDB in CloudDBConstants.java file. You can use the template "Education-learning_CloudDB_all_tables_19.json" file to import into the database and it will save you tons of time. 
+But NOTES: you must change the number of {"schemaVersion":19} for the json file based on your CloudDB version. Change OBJECT_TYPE_VERSION from ObjectTypeInfoHelper.java as per your Cloud DB version from AGC.  Make sure to use the same name in the code for creating CloudDB in CloudDBConstants.java file(which is in the database folder).
 You will output/generate the related files: Education_Vertical_Demo/blob/main/app/src/main/java/com/sundydemo/learning1/java/database/ObjectTypeInfoHelper.java ,  All java files in the folder of Education_Vertical_Demo/tree/main/app/src/main/java/com/sundydemo/learning1/java/database/tables/
 8. One Huawei phone with developer option enabled. (non-huawei phone such as Samsung Note8 cannot show Ads well)
 9. For Huawei Kits integration, configration, test,etc, please refer to below Huawei official website in part of Help information. 
