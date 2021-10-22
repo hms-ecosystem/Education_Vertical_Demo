@@ -14,7 +14,7 @@ The demo project uses standard Android Studio v4.2.1 and was tested on Huawei Ma
 1. Standard Android Studio installed. 
 2. Huawei developer account is ready. 
 3. Create a new App in AppGallery Connect with your Huawei develper ID and change the package name. Help: https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#0
-4. Generating a Signing Certificate and Add fingerprint certificate to AppGallery Connect. NOTES: the files {app/pushSundy01.jks and app/pushSundy01.txt} here are only for example and you cannot use them directly. You must generate your own files to use.    Help:https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#2 https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#4
+4. Generating a Signing Certificate and Add fingerprint certificate to AppGallery Connect. NOTES: the file {app/pushSundy01.jks} here is only for example and you cannot use them directly. You must generate your own files to use.    Help:https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#2 https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#4
 5. Configure project signature. Help: https://developer.huawei.com/consumer/en/codelab/HMSPreparation/index.html#7
 6. Click Auth Service on the navigation bar (on AGC console board) and enable authentication using an anonymous account.
 7. Replace lines 30 to 33 and lines of the file of /Education_Vertical_Demo/blob/main/app/build.gradle with your own signature. And put your own jks file in the folder Education_Vertical_Demo/app/  to replace pushSundy01.jks. 
