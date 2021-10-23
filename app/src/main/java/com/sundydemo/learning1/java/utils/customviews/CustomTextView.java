@@ -25,7 +25,7 @@ import androidx.appcompat.widget.AppCompatTextView;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class CustomTextView extends AppCompatTextView {
     /**
