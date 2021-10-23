@@ -40,7 +40,7 @@ import java.util.Objects;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class ExamFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
