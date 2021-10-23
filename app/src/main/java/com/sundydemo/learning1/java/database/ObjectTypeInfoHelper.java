@@ -43,8 +43,9 @@ import java.util.List;
 
 /**
  * Definition of ObjectType Helper.
- *
- * @since 2021-06-16
+ * @author Huawei DTSE IndiaIndia
+ * @author Futurewei DTSE USA. changed to fix Cloud Database crash issue
+ * @since 2020
  */
 public final class ObjectTypeInfoHelper {
     private static final int FORMAT_VERSION = 2;
