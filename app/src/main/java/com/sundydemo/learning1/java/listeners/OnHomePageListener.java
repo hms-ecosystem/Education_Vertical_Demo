@@ -19,7 +19,7 @@ import android.view.View.OnClickListener;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public interface OnHomePageListener extends OnItemClickListener, OnClickListener, OnPlaySettingListener {
 }
