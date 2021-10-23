@@ -77,7 +77,8 @@ import java.util.Objects;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
+ * @author Futurewei DTSE USA, change some lines to fix video player issue(line#844, 845)
  */
 public class PlayActivity extends BaseActivity implements OnPlayWindowListener,
         OnWisePlayerListener, CloudDbUiCallbackListener {
