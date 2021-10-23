@@ -21,7 +21,7 @@ import com.huawei.hms.push.RemoteMessage;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class HmsPushService extends HmsMessageService {
     @Override
