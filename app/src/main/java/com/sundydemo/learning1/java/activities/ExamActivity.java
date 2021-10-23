@@ -42,7 +42,7 @@ import java.util.Objects;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class ExamActivity extends BaseActivity implements CloudDbUiCallbackListener {
     /**
