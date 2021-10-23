@@ -24,7 +24,7 @@ import com.huawei.hms.analytics.HiAnalyticsInstance;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class AppAnalytics {
     /**
