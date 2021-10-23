@@ -42,7 +42,7 @@ import com.sundydemo.learning1.java.utils.pushservice.PushUtil;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class LearningApplication extends Application
         implements Application.ActivityLifecycleCallbacks, NetworkConnectionCallbacks {
