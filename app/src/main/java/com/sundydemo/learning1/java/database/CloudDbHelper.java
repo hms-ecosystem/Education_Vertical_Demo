@@ -29,7 +29,8 @@ import com.huawei.hmf.tasks.Task;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
+ * @author Futurewei DTSE USA.  Changed line# 37, 70 to fix video player issue 
  */
 public class CloudDbHelper {
     private static volatile CloudDbHelper cloudDbHelper = null;
