@@ -39,7 +39,7 @@ import java.util.ArrayList;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class CourseContentListFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
