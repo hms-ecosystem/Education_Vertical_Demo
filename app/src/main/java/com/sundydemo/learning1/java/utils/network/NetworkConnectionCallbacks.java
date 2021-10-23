@@ -16,6 +16,10 @@
 
 package com.sundydemo.learning1.java.utils.network;
 
+/**
+ * @since 2020
+ * @author Huawei DTSE India
+ */
 
 
 public interface NetworkConnectionCallbacks {
