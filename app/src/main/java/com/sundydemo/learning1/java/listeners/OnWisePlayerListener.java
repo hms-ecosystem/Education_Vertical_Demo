@@ -22,7 +22,7 @@ import com.huawei.hms.videokit.player.WisePlayer;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public interface OnWisePlayerListener
         extends WisePlayer.ErrorListener,
