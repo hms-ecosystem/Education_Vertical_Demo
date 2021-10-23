@@ -59,7 +59,7 @@ import static com.sundydemo.learning1.java.utils.video.Constants.SLIDER_DELAY;
 import static com.sundydemo.learning1.java.utils.video.Constants.SLIDER_PERIOD;
 
 /**
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  * @since 2020
  */
 public class HomeFragment extends Fragment {
