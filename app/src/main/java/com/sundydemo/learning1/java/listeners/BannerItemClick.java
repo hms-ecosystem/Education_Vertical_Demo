@@ -20,7 +20,7 @@ import com.sundydemo.learning1.java.models.BannerModel;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public interface BannerItemClick {
     /**
