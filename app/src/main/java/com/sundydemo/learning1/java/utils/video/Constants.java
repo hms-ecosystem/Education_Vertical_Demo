@@ -16,7 +16,7 @@
 package com.sundydemo.learning1.java.utils.video;
 
 /**
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  * @since 2020
  */
 public class Constants {
