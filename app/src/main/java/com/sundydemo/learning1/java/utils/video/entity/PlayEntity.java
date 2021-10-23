@@ -19,7 +19,7 @@ import java.io.Serializable;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class PlayEntity implements Serializable {
 
