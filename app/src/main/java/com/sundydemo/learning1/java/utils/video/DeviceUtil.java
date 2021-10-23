@@ -20,7 +20,7 @@ import android.content.res.Configuration;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class DeviceUtil {
     private static final float FLOAT_VALUE = 0.5f;
