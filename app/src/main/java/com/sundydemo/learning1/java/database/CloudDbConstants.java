@@ -18,7 +18,8 @@ package com.sundydemo.learning1.java.database;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
+ * @author Futurewei DTSE USA. changed line 28
  */
 public interface CloudDbConstants {
     /**
