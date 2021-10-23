@@ -20,7 +20,7 @@ import com.sundydemo.learning1.java.models.CourseContentDataModel;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public interface CourseContentItemClick {
     /**
