@@ -34,7 +34,7 @@ import com.sundydemo.learning1.java.utils.AppUtils;
 import com.sundydemo.learning1.java.utils.video.Constants;
 
 /**
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  * @since 2020
  */
 public class DocumentViewActivity extends BaseActivity {
