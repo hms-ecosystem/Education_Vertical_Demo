@@ -21,7 +21,7 @@ import android.os.Parcelable;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class ExamModel implements Parcelable {
     private Integer id;
