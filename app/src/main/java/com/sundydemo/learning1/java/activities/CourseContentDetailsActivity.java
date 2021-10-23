@@ -39,7 +39,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  * @since 2020
  */
 public class CourseContentDetailsActivity extends BaseActivity
