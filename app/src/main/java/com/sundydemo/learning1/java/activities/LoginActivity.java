@@ -26,7 +26,8 @@ import com.sundydemo.learning1.java.utils.account.AccountUtils;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
+ * @author Futurewei DTSE USA. Disable gotToHome() function
  */
 public class LoginActivity extends BaseActivity {
     @Override
