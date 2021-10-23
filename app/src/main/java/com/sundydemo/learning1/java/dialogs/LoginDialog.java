@@ -26,7 +26,7 @@ import com.sundydemo.learning1.R;
 import com.sundydemo.learning1.java.utils.account.AccountUtils;
 
 /**
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  * @since 2020
  */
 public class LoginDialog extends BottomSheetDialog {
