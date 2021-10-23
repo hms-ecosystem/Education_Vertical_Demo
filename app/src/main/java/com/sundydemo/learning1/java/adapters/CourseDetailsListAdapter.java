@@ -34,7 +34,7 @@ import java.util.ArrayList;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class CourseDetailsListAdapter extends RecyclerView.Adapter<CourseDetailsListAdapter.ViewHolder> {
     /**
