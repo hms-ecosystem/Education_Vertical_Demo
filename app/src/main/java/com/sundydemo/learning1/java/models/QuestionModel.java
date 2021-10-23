@@ -18,7 +18,7 @@ package com.sundydemo.learning1.java.models;
 
 /**
  * @since 2020
- * @author Huawei DTSE USA
+ * @author Huawei DTSE India
  */
 public class QuestionModel {
     private int id;
