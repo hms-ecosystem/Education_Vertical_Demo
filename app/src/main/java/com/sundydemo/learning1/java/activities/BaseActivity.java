@@ -42,8 +42,11 @@ import java.util.Objects;
 
 /**
  * @author Huawei DTSE India
- * @author Futurewei DTSE USA.  commented the variant cloudDbHelper to fix video player issue. (line 52, 65)
  * @since 2020
+ *
+ * @author Futurewei DTSE USA
+ * Bug fix: commented the variant cloudDbHelper to fix video player issue. (line 55, 68)
+ * @since 2021
  */
 public abstract class BaseActivity extends AppCompatActivity {
     /**
