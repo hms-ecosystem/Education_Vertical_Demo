@@ -28,9 +28,12 @@ import com.huawei.hmf.tasks.OnSuccessListener;
 import com.huawei.hmf.tasks.Task;
 
 /**
- * @since 2020
  * @author Huawei DTSE India
- * @author Futurewei DTSE USA.  Changed line# 37, 70 to fix video player issue 
+ * @since 2020
+ *
+ * @author Futurewei DTSE USA
+ * Bug fix:  Changed line# 40, 73 to fix video player issue 
+ * @since 2021
  */
 public class CloudDbHelper {
     private static volatile CloudDbHelper cloudDbHelper = null;
